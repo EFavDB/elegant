@@ -236,11 +236,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
   line-height: 1.1em;
   text-indent: -1px;
 }
-/* ul.articles-timeline { */
-/*   list-style: none; */
-/*   margin: 0; */
-/*   padding-bottom: 30px; */
-/* } */
+ul.articles-timeline {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
 /* ul.articles-timeline .next-article { */
 /*   float: right; */
 /*   margin: 0; */
@@ -289,8 +290,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
 ul.list-articles-category li time {
   color: #8f8f8f;
   display: inline-block;
-  font: 1.2em "Helvetica", sans-serif;
-  width: 7em;
+  font: 0.8em "Helvetica", sans-serif;
+  width: 12em;
 }
 a.category-link {
     color: #333;
@@ -575,3 +576,32 @@ div.recent-posts-posted {
 /* table tbody > tr:nth-child(odd) > td { */
 /*   background-color: #ebebeb; */
 /* } */
+
+
+
+/********************** MY ADDITIONS ****************/
+
+/*
+"scroll to top button"
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #008CBA; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+  opacity: 0.8;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
