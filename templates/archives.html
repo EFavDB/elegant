@@ -58,7 +58,9 @@ Full archives of {{ SITENAME|striptags|e }} blog.
                 {% endif %}
 
                 <a href="{{ SITEURL }}/{{ article.url }}">
-                    {{ article.title }}
+                    <p style="width: 75%; overflow: hidden">
+                        {{ article.title }}
+                    </p>
                     {%if article.subtitle %}
                     <small class="subtitle">
                         {{ article.subtitle }}
