@@ -45,9 +45,9 @@
     {% if PROJECTS and LANDING_PAGE_TITLE %}
     {% set css_class = 'span12' %}
     {% endif %}
-    <header class="page-header {{css_class}}">
-    <h1><a href="{{ SITEURL }}">{{ LANDING_PAGE_TITLE }}</a></h1>
-    </header>
+    <!-- <header class="page-header {{css_class}}"> -->
+    <!-- <h1><a href="{{ SITEURL }}">{{ LANDING_PAGE_TITLE }}</a></h1> -->
+    <!-- </header> -->
     {% endif %}
 
     <div class="row-fluid">
@@ -82,6 +82,7 @@
                 </li>
             </ul>
             {%endfor %}
+            {% include '_includes/social_links.html' %}
         </div>
         {% endif %}
     </div>
