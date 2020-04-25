@@ -125,7 +125,7 @@
 /* Tags */
 .list-of-tags {
   font-family: "Fira Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.0em;
   list-style: none;
   margin: 0;
   overflow: hidden;
@@ -162,9 +162,9 @@
 div.recent-posts p {
     font-weight: 400;
     font-size: 1.5em;
-    line-height: 1.5em;    
+    line-height: 1.5em;
     font-family: "Cardo", serif;
-    text-align: left;    
+    text-align: left;
 }
 /* .article-content, */
 /* div.recent-posts p { */
@@ -226,7 +226,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
   font: "Fira Sans", sans-serif;
   border-bottom: 0px solid;
   color: black;
-  margin: 10px 10px 20px;
+  margin: 10px 10px 20px 0px;
   padding: 10px;
 }
 .page-header h1 {
@@ -259,9 +259,9 @@ ul.articles-timeline {
 /* ul.multi-parts-list li.active-part { */
 /*   font-style: italic; */
 /* } */
-/* .table-of-content .toc { */
-/*   font-size: 0.7em; */
-/* } */
+.table-of-content .toc {
+   font-size: 1em;
+}
 /* .last-updated a { */
 /*   color: #333; */
 /* } */
@@ -593,15 +593,15 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #008CBA; /* Set a background color */
+  background-color: #555; /* Set a grey background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 20px; /* Increase font size */
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #008CBA; /* Add blue background on hover */
 }

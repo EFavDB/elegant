@@ -9,7 +9,7 @@
     {% from '_includes/_defaults.html' import SITESUBTITLE with context %}
     {% if SITESUBTITLE %}
     <div>
-        <span class="site-name">{{ SITENAME }}</span> - {{ SITESUBTITLE }}
+        <span class="site-name"><a href= {{ SITEURL }}>{{ SITENAME }}</span> - {{ SITESUBTITLE }}</a>
     </div>
     {% endif %}
 
